@@ -1,0 +1,260 @@
+
+
+.my{
+    background-color: rgb(220, 136, 98);
+    width: 100%;
+    height: auto;       /* ✅ Let div height adjust automatically */
+    padding-bottom: 100px; 
+    margin-bottom: 14px; 
+    margin-top: 6px;  /* ✅ Optional: small padding for breathing space */
+}
+
+h1{
+    text-align: center;
+    padding-top: 180px;
+    font-size: 32px;
+    margin: 2px;
+}
+.Electronics{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 130px;
+    margin: 0px;
+}
+
+.intro-section {
+  display: flex;
+  background-color: rgb(249, 226, 196);
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+  gap: 50px;
+}
+
+.profile-img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding-top: 3px;
+  padding-left: 200px;
+}
+
+.intro-text {
+  max-width: 800px;
+  background-color: rgb(249, 226, 196);
+}
+
+.intro-text h2 {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 250px;
+  padding-top: 30px;
+}
+
+.intro-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 120px;
+  padding-top: 60px ;
+}
+
+/* ===== Skills Section Styling ===== */
+.skills-section {
+  background: linear-gradient(13deg, rgb(220, 136, 98));
+  margin-top: 14px;
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.skills-section h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-top: 37px;
+  margin-top: 0px;
+
+}
+
+.category-title {
+  color: #001b39;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 12px  5px;
+  margin-left: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-left: 5px solid #001b39;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(220, 136, 98);
+  padding-right: 20px;
+}
+
+.skill-card {
+  background: #050505;
+  border-radius: 12px;
+  width: 120px;
+  height: 80px;
+  box-shadow: 0 4px 10px rgba(249, 247, 247, 0.943);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.skill-card i {
+  font-size: 2.5rem;
+  color: #010915;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill-card p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fafbfc;
+  padding-right: 20px;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  background: #05152c;
+  color: #fff;
+}
+
+.skill-card:hover i {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.skill-card:hover p {
+  color: #fff;
+}
+
+
+.project {
+  background-color: rgb(249, 226, 196);            /* light background for contrast */
+  padding-left: 10px; 
+  padding-right: 10px;  
+  padding-bottom: 30px;               /* spacing around section */
+  text-align: left;                     /* left align text */
+}
+
+.project h2 {
+  text-align: center;
+  font-size: 27px;
+  color: #222;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* project cards styling */
+.project h3 {
+  font-size: 22px;
+  color: #0a3d62;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.project h3:hover {
+  color: #1b474d;
+}
+
+.project p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-left: 4px solid #00bcd4;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-weight: bold;
+}
+
+/* hover effect for project descriptions */
+.project p:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.certifications {
+  text-align: center;
+  margin: 14px auto;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  font-family: "Poppins", sans-serif;
+  background-color:rgb(220, 136, 98) ;
+}
+.certifications h2 {
+  font-size: 28;
+  margin-bottom: 50px;
+}
+.medal-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.medal {
+  text-align: center;
+  position: relative;
+  width: 280px;
+}
+.medal-head {
+  background: #7a2b04;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px 6px 0 0;
+  font-weight: bold;
+}
+.circle {
+  background: radial-gradient(circle, #f1c27d, #e0a052);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.circle:hover {
+  transform: scale(1.1);
+}
+.medal h3 {
+  margin-top: 10px;
+  color: #1e1d1d;
+}
+.medal p {
+  color: #292929;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+
