@@ -1,9 +1,3 @@
-Perfect 👍 Thanks for the details!
-Here’s a **professional README.md** you can use for your GitHub portfolio project 👇
-
----
-
-```markdown
 # Portfolio
 
 This is a personal portfolio website created using **HTML** and **CSS** to showcase my skills, projects, and certifications in a professional manner.
