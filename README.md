@@ -1,3 +1,9 @@
+Perfect 👍 Thanks for the details!
+Here’s a **professional README.md** you can use for your GitHub portfolio project 👇
+
+---
+
+```markdown
 # Portfolio
 
 This is a personal portfolio website created using **HTML** and **CSS** to showcase my skills, projects, and certifications in a professional manner.
@@ -35,12 +41,16 @@ A section displaying the certifications I’ve earned, including recognized cour
 
 ## 📁 Project Structure
 
+```
+
 Portfolio/
 ├── index.html
 ├── stylesheet.css
 └── assets/
 ├── images/
 └── icons/
+
+````
 
 ---
 
@@ -49,6 +59,19 @@ Portfolio/
 You can clone this repository and open the `index.html` file in any web browser.
 
 ```bash
-git clone https://github.com/Pranjalidamdhar/Portfolio.git
+git clone https://github.com/pranjalidamdhar/Portfolio.git
 cd Portfolio
-⭐ Thank you for visiting my portfolio!
+````
+
+Then open:
+
+```
+index.html
+```
+
+---
+
+
+⭐ *Thank you for visiting my portfolio!*
+
+
